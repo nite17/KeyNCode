@@ -32,12 +32,12 @@ export default function Second(){
                             a structured skill development and placement system.
                         </p>
                         
-                        <button className="flex justify-center rounded-full bg-white max-w-58 h-12 lg:h-12 mt-8 lg:mt-40 hover:bg-gray-100 transition-colors duration-300">
+                        <button className="flex justify-center rounded-full bg-white max-w-58 h-12 lg:h-12 mt-8 lg:mt-40  group hover:bg-stone-100 hover:cursor-pointer transition-colors duration-300 z-80 hover:scale-105 ">
                             <p className="flex items-center font-cabinet-grotesk text-black text-xl lg:text-2xl xl:text-3xl">
                                 Know more
                                 <span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
-                                        className="bi bi-arrow-right ml-4 font-bold" viewBox="0 0 16 16">
+                                        className="bi bi-arrow-right ml-4 font-bold group-hover:translate-x-5 duration-300" viewBox="0 0 16 16">
                                         <path fillRule="evenodd"
                                             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1
                                             .708-.708l4 4a.5.5 0 0 1 0

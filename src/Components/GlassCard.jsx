@@ -35,10 +35,10 @@ export default function GlassCard(){
 
 
       {/* Button */}
-      <button className="flex items-center  space-x-8 bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition text-3xl mt-10">
+      <button className="flex items-center  space-x-8 bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition text-3xl mt-10  group hover:cursor-pointer transition-colors duration-300 z-80 hover:scale-105">
         <p class="-mt-1">Know more</p>
          <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34"fill="currentColor"
-                                        className="bi bi-arrow-right font-bold text-white  " viewBox="0 0 16 16">
+                                        className="bi bi-arrow-right font-bold text-white group-hover:translate-x-5 duration-300 " viewBox="0 0 16 16">
                                         <path fillRule="evenodd"
                                             d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1
                                             .708-.708l4 4a.5.5 0 0 1 0
